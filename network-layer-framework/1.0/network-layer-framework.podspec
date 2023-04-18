@@ -5,7 +5,7 @@ s.summary = 'Network Layer Pod'
 s.homepage = 'http://10.172.2.30/team-ios/network-layer-framework'
 # s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = 'EasyPaisa'
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '13.0'
 s.source = { :git => 'http://10.172.2.30/team-ios/network-layer-framework.git', :tag => s.version.to_s }
 s.swift_version = '5.0'
 s.source_files  = 'NetworkService', 'NetworkService/**/*' 
