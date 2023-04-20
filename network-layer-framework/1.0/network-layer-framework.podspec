@@ -8,6 +8,7 @@ s.author = 'EasyPaisa'
 s.ios.deployment_target = '13.0'
 s.source = { :git => 'http://10.172.2.30/team-ios/network-layer-framework.git', :tag => s.version.to_s }
 s.swift_version = '5.0'
-s.source_files  = 'NetworkService', 'NetworkService/**/*' 
+s.source_files  = "NetworkService/**/*.{swift}"
+s.resources = "NetworkService/Certificates.bundle"
 s.dependency 'Alamofire', '5.6.1'
 end
