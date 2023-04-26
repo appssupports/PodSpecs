@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'network-layer-framework'
-s.version = '1.1'
+s.version = '1.0'
 s.summary = 'Network Layer Pod'
 s.homepage = 'http://10.172.2.30/team-ios/network-layer-framework'
 # s.license = { :type => 'MIT', :file => 'LICENSE' }
