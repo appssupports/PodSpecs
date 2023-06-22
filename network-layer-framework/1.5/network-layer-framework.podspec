@@ -6,7 +6,7 @@ s.homepage = 'http://10.172.2.30/team-ios/network-layer-framework'
 # s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = 'easypaisa'
 s.ios.deployment_target = '11.0'
-s.source = { :git => 'http://10.172.2.30/team-ios/network-layer-framework.git', :tag => "v#{s.version}" }
+s.source = { :git => 'http://10.172.2.30/team-ios/network-layer-framework.git', :tag => s.version.to_s }
 s.swift_version = '5.0'
 s.source_files  = "NetworkService/**/*.{swift}"
 s.resources = "NetworkService/Certificates.bundle"
